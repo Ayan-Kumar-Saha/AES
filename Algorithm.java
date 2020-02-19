@@ -24,7 +24,7 @@ public class Algorithm {
 
             AES aes = new AES();
 
-            aes.
+            aes.createSession();
 
             switch (choice) {
 
@@ -49,6 +49,8 @@ public class Algorithm {
                         break;
 
                 case 0:
+
+                        break;
 
                 default: 
 

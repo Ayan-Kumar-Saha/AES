@@ -74,13 +74,17 @@ public class AES {
         return finalData;
     }
 
-    private String subBytes(String message) { return null; }
+    private String subBytes(String state) { return null; }
 
-    private String shiftRows(String message) { return null; }
+    private String shiftRows(String state) { return null; }
 
-    private String mixColumns(String message) { return null; }
+    private String mixColumns(String state) { return null; }
 
-    private String addRoundKey(String message, String roundKey) { return null; }
+    private String addRoundKey(String state, String roundKey) { 
+        
+        return null; 
+    
+    }
 
  
 
